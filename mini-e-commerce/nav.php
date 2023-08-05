@@ -21,7 +21,7 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <img class="logo" src="logo6-removebg-preview.png" alt="">
+        <img class="logo" src="clothes-removebg-preview.png" alt="">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">

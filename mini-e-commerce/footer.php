@@ -18,7 +18,7 @@
 
     <div class="footer" id="Footer">
         <div class="logofooter">
-            <img src="logo6-removebg-preview.png" alt="logo">
+            <img src="clothes-removebg-preview.png" alt="logo">
         </div>
         <div class="info-mid">
             <h3>Info</h3>
@@ -40,7 +40,7 @@
         <div class="right-footer">
             <ul class="nav-footer">
                 <li><a class="color" href="#Home">Home</a></li>
-                <li><a class="color" href="#AddProduct">AddProduct</a></li>
+                <li><a class="color" href="#product_cards.php">preview Product</a></li>
             </ul>
             <div class="copy">
                 <i class="fa-solid fa-registered"></i>
