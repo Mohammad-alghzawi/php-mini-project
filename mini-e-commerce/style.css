@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+width: 100%;
+height: 500px;
+}
+.logo{
+    width: 10%;
+}
+
+nav.navbar{
+    background-color: #8b96a2!important;
+ 
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 94px;
+    margin-bottom: 0;
+    list-style: none;
+    gap: 50px;
+    
+}
+.nav-link {
+    color:black !important;
+    font-size: 20px;
+}
+.nav-link:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+.form {
+    border: 1px solid black;
+    width: 430px;
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    background-color: orange;
+}
+
+.submit{
+    /* background-color: #8b96a2; */
+    width: 80px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: #8b96a2;
+    height: 292px;
+    width: 100%;
+    margin-top: 100px;
+}
+.logofooter img{
+    width: 60%;
+    margin-top: 60px;
+}
+.info-mid{
+    margin-right: 330px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.right-footer{
+    margin-top: 65px;
+    margin-right: 20px;
+}
+.copy{
+    margin-top: 107px;
+    margin-right: 10px;
+}
+
+.color{
+    color:black;
+}
+.color:hover{
+    background-color: orange;
+    border-radius: 3px;
+}
+
+   /* i:hover{
+    transition: .5s;
+    color: orange;
+   } */
+
+/* ------------------------------------------------------------------------------ */
+@media screen and  (min-width:481px) and (max-width:768px){
+    .form{
+        margin-left: 200px;
+    }
+    .info-mid {
+        margin-right: 32px;
+        margin-top: 84px;
+        font-size: 12px;
+    }
+    .nav-footer{
+        margin-left: 80px;
+        margin-top: 42px;
+    }
+    .copy {
+        margin-top: 103px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .logofooter img {
+        width: 63%;
+        margin-top: 93px;
+        margin-left: 15px;
+    }
+}
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:480px) {
+    .form {
+     
+        width: 410px;
+        margin-left: 9px;
+    }
+    .footer{
+        grid-template-columns: auto;
+    }
+    .logofooter img {
+        width: 30%;
+        margin-top: 8px;
+        margin-left: 140px;
+    }
+    .info-mid {
+        margin-right: 312px;
+        margin-top: 0px;
+        font-size: 11px;
+        margin-left: 164px;
+    }
+    .right-footer {
+        margin-top: 14px;
+        margin-right: 20px;
+        margin-left: 179px;
+    }
+    
+element.style {
+}
+.copy {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.logo {
+    width: 35%;
+}
+}
+ 
