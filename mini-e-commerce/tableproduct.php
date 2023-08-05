@@ -3,7 +3,7 @@ Session_start();
 include_once('nav.php');
 include_once('form.php');
 echo"<div>";
-echo"<table>";
+echo "<table class='table table-striped' id='tabel' style= 'margin-right: 12px;'>";
 echo"<thead>";
 echo"<tr>";
 echo"<th>product name</th>";
@@ -26,7 +26,14 @@ echo "</tbody>";
 echo "</table>";
 echo "</div>";
 
+
 echo "<a href='product_cards.php'><button>preview cards</button></a>";
 
 include_once('footer.php');
 ?>
+
+<!-- <style>
+    .table{
+
+    }
+</style> -->
