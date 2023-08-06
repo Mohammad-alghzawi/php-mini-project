@@ -2,7 +2,7 @@
 Session_start();
 include_once('nav.php');
 include_once('form.php');
-echo"<div>";
+echo"<div>";// creat table in PHP
 echo "<table class='table table-striped' id='tabel' style= 'margin-right: 12px;'>";
 echo"<thead>";
 echo"<tr>";
@@ -13,9 +13,9 @@ echo"</tr>";
 echo"</thead>";
 
 echo"<tbody>";
-if(isset($_SESSION['products'])&& is_array($_SESSION['products'])){
-    foreach($_SESSION['products'] as $product){
-        echo'<tr>';
+if(isset($_SESSION['products'])&& is_array($_SESSION['products'])){ // for first submit 
+    foreach($_SESSION['products'] as $product){ //loop for all products 
+        echo'<tr>'; //creat row for each product
         echo'<td>'.$product['name'].'</td>';
         echo'<td>'.$product['price'].'</td>';
         echo '<td><img class="product-image" src="./image/' . trim($product['image'], 'uploads/') . '" width="100px" height="100px" alt="' . $product['name'] . '"></td>';
@@ -27,7 +27,7 @@ echo "</table>";
 echo "</div>";
 
 
-echo "<a href='product_cards.php'><button>preview cards</button></a>";
+echo "<a style='margin-left:20px;'href='product_cards.php'><button style=' background-color:#ffe4c4a3; width: 120px; height:50px; border-radius:5px'>preview cards</button></a>";
 
 include_once('footer.php');
 ?>

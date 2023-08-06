@@ -74,10 +74,7 @@ height: 500px;
 .color{
     color:black;
 }
-.color:hover{
-    background-color: orange;
-    border-radius: 3px;
-}
+
 
 
 /* ------------------------------------------------------------------------------ */

@@ -26,13 +26,13 @@
 
             <div class="carousel-item active">
                 <img class="d-block w-100"
-                    src="https://i.pinimg.com/736x/13/af/ab/13afab91147db2ebf74a421b0a82200f.jpg"
+                src="https://images.squarespace-cdn.com/content/v1/630f9449e9d3ae151b3599d3/1662513818701-GQABAAV7SUNE1000GRI6/mens-capsule-wardrobe.jpg"
                     alt="First slide">
 
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100"
-                    src="https://images.squarespace-cdn.com/content/v1/630f9449e9d3ae151b3599d3/1662513818701-GQABAAV7SUNE1000GRI6/mens-capsule-wardrobe.jpg"
+                    src="https://media.istockphoto.com/id/887360960/photo/mens-suits-on-hangers-in-different-colors.jpg?s=612x612&w=0&k=20&c=RR19yJjRuR-CBWj9u1sQkFgtdYJ07KEkM678R0mtuZY="
                     alt="Second slide">
             </div>
         </div>
