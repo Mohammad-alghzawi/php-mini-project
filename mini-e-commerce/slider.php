@@ -10,6 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+           
+        </style>
 </head>
 
 <body>
@@ -23,13 +26,13 @@
 
             <div class="carousel-item active">
                 <img class="d-block w-100"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqxSmv2JLJLJLLxojxK0xwrx5PqViaCiP_aw&usqp=CAU"
+                    src="https://i.pinimg.com/736x/13/af/ab/13afab91147db2ebf74a421b0a82200f.jpg"
                     alt="First slide">
 
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgRMlyhzM-uHeUd0Y1yErweXgXn6HQREKs4Q&usqp=CAU"
+                    src="https://images.squarespace-cdn.com/content/v1/630f9449e9d3ae151b3599d3/1662513818701-GQABAAV7SUNE1000GRI6/mens-capsule-wardrobe.jpg"
                     alt="Second slide">
             </div>
         </div>

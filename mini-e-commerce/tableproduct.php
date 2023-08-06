@@ -32,8 +32,16 @@ echo "<a href='product_cards.php'><button>preview cards</button></a>";
 include_once('footer.php');
 ?>
 
-<!-- <style>
+<style>
     .table{
-
+ background-color: #ffe4c4a3;
+margin-top: 50px;
     }
-</style> -->
+
+    body{
+        background-image: url("https://img.freepik.com/free-photo/men39s-clothes-hanger-generative-ai_169016-29035.jpg?size=626&ext=jpg&ga=GA1.2.823856766.1688295675&semt=sph");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+</style>
